@@ -76,13 +76,25 @@ canvas {
 
 @media only screen and (min-width: 1280px) {
   #message {
-    margin-top: 10%;
+    margin-top: 3%;
   }
 
   #message p {
     font-size: 7rem;
     line-height: 7.5rem;
     letter-spacing: 15px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  #message {
+    margin-top: 5%;
+  }
+
+  #message p {
+    font-size: 10rem;
+    line-height: 10.5rem;
+    letter-spacing: 20px;
   }
 }
 
